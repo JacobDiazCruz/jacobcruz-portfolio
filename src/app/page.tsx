@@ -1,3 +1,4 @@
+import FeaturedBook from "@/components/FeaturedBook";
 import FeaturedDescription from "@/components/FeaturedDescription";
 import FeaturedWorks from "@/components/FeaturedWorks";
 import Footer from "@/components/Footer";
@@ -34,6 +35,10 @@ export default function Home() {
 
         <Section>
           <FeaturedDescription />
+        </Section>
+
+        <Section>
+          <FeaturedBook />
         </Section>
 
         <Section>
