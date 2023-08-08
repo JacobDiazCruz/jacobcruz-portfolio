@@ -36,7 +36,7 @@ export default function WorkExperience() {
       <h1 className="color-[#E8E8E8] text-[32px] md:text-[42px] md:mb-10">
         Work Experience
       </h1>
-      <div className="flex flex-col md:flex-wrap justify-between md:mt-10">
+      <div className="flex flex-col md:flex-row md:flex-wrap justify-between md:mt-10">
         {works.map((work: Work, index: number) => (
           <div key={index} className="flex-[50%] mt-10">
             {work.icon}
