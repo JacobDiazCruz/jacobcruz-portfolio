@@ -15,7 +15,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <main className="p-6 bg-[#1B1B1B] w-full">
+      <main className="p-6 w-full font-['Helvetica']">
         <div className="flex items-center m-[0 auto] gap-[10px] sticky top-3 p-2">
           <div className="w-[181px] h-[86px] bg-[#37682B] absolute rounded-full z-10 filter blur-[95px]"></div>
           <CjLogo />
@@ -31,10 +31,6 @@ export default function Home() {
 
         <Section>
           <WorkExperience />
-        </Section>
-
-        <Section>
-          <FeaturedDescription />
         </Section>
 
         <Section>

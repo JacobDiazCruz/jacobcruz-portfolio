@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BookImage from "./black-book.png";
+import BookImage from "../../public/black-book.png";
 
 export default function FeaturedBook() {
   return (

@@ -33,7 +33,7 @@ export default function FeaturedWorks() {
 
   return (
     <div className="font-light">
-      <h1 className="text-[#E8E8E8] text-[32px] md:text-[42px] md:mb-10">
+      <h1 className="text-[#E8E8E8] text-[32px] md:text-[42px] md:mb-10 font-medium">
         Featured Works
       </h1>
       {workItems.map((work: WorkItem, index: number) => (

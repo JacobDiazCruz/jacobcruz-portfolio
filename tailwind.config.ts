@@ -7,6 +7,11 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      'body': 'BlinkMacSystemFont',
+      'sans': 'Helvetica, Arial, sans-serif',
+      'mono': 'Times New Roman'
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -17,4 +22,4 @@ const config: Config = {
   },
   plugins: [],
 }
-export default config
+export default config;
