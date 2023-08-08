@@ -2,7 +2,10 @@ export default function Masthead() {
   return (
     <>
       <div className="w-full">
-        <h1 className="md:text-[58px] text-[36px] text-[#E8E8E8] font-light md:leading-[70px]">
+        <p className="ml-1 text-[22px] text-neutral-400">
+          JACOB CRUZ
+        </p>
+        <h1 className="md:text-[58px] text-[36px] mt-3 text-[#E8E8E8] font-light md:leading-[70px]">
           Building great apps to empower people
         </h1>
         <p className="md:text-[24px] text-[20px] text-[#ACACAC] mt-7">
