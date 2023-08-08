@@ -33,11 +33,11 @@ export default function FeaturedWorks() {
 
   return (
     <div className="font-light">
-      <h1 className="color-[#E8E8E8] text-[32px] md:text-[42px] md:mb-10">
+      <h1 className="text-[#E8E8E8] text-[32px] md:text-[42px] md:mb-10">
         Featured Works
       </h1>
       {workItems.map((work: WorkItem, index: number) => (
-        <div key={index} className="border-b border-[#9D9D9D] py-[60px]">
+        <div key={index} className="border-b last:border-none border-[#9D9D9D] py-[60px]">
           <div className="flex">
             {work.icon}
             <div className="ml-[20px]">
