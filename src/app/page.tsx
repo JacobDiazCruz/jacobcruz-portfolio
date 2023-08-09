@@ -1,26 +1,36 @@
+"use client";
+
 import FeaturedBook from "@/components/FeaturedBook";
-import FeaturedDescription from "@/components/FeaturedDescription";
 import FeaturedWorks from "@/components/FeaturedWorks";
 import Footer from "@/components/Footer";
 import Masthead from "@/components/Masthead";
+import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
 import WorkExperience from "@/components/WorkExperience";
-import CjLogo from "../../public/cj-logo.svg";
-
-export const metadata = {
-  title: 'Jacob Cruz - Software Engineer',
-  description: ''
-}
+import { useEffect } from "react";
+import Scrollbar from 'smooth-scrollbar';
 
 export default function Home() {
+  useEffect(() => {
+    // Initialize the smooth scrollbar
+    const container = document.querySelector("#scrollable-container");
+    const options = {
+      damping: 0.06,
+    };
+    // @ts-ignore
+    Scrollbar.init(container, options);
+
+    return () => {
+      // Destroy the scrollbar instance on component unmount
+      // @ts-ignore
+      Scrollbar.destroy(container);
+    };
+  }, []);
+
   return (
     <>
-      <main className="p-6 w-full font-['Helvetica']">
-        <div className="flex items-center m-[0 auto] gap-[10px] sticky top-3 p-2">
-          <div className="w-[181px] h-[86px] bg-[#37682B] absolute rounded-full z-10 filter blur-[95px]"></div>
-          <CjLogo />
-        </div>
-
+      <Navbar />
+      <main className="p-6 w-full font-['Helvetica'] pt-[100px]" id="scrollable-container">
         <Section>
           <Masthead />
         </Section>

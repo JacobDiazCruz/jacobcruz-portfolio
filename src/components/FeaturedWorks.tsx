@@ -56,7 +56,7 @@ export default function FeaturedWorks() {
             </div>
           </div>
 
-          <div className="mt-5 md:text-[26px] text-[20px] text-[#D6D6D6] leading-[45px] w-full md:w-[80%]">
+          <div className="mt-5 md:text-[24px] text-[20px] text-neutral-300 leading-[45px] w-full md:w-[80%]">
             {work.description}
           </div>
 
