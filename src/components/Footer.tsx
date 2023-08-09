@@ -7,7 +7,7 @@ export default function Footer() {
         </div>
         <div className="text-[#E8E8E8] text-[24px] md:text-[36px] underline mt-7 md:mt-[60px]">
           <div>
-            <a href="mailto:carljacobcruz@gmail.com">carljacobcruz@gmail.com</a>
+            <a href="mailto:carljacobdiazcruz@gmail.com">carljacobcruz@gmail.com</a>
           </div>
           <div className="mt-5">
             <a href="https://www.linkedin.com/in/jacob-cruz-b3404b165/" target="_blank">LinkedIn</a>

@@ -11,9 +11,11 @@ export default function Masthead() {
         <h1 className="md:text-[62px] text-[36px] mt-7 text-neutral-300 font-light md:leading-[65px]">
           Building great <span className="italic text-white font-normal">apps</span> to empower people
         </h1>
-        <button className="py-2 px-4 rounded-md ml-0 mt-7 text-[20px] font-normal cursor-pointer bg-[#7FEE91] text-[#003308] border-none">
-          contact me
-        </button>
+        <a href="mailto:carljacobdiazcruz@gmail.com">
+          <button className="py-2 px-4 rounded-md ml-0 mt-7 text-[20px] font-normal cursor-pointer bg-[#7FEE91] text-[#003308] border-none">
+            contact me
+          </button>
+        </a>
       </div>
       <div className="w-[700px] md:block hidden">
         <div className="w-fit p-3 border bg-neutral-900 border-s-neutral-500 border-y-neutral-700 border-r-neutral-800 rounded-lg font-light">
