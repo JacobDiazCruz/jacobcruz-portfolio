@@ -62,9 +62,12 @@ export default function FeaturedWorks() {
 
           <div className="flex gap-[15px] mt-4">
             {work.technologies.map((tech: string, techIndex: number) => (
-              <div key={techIndex} className="bg-[#12342E] text-[#84E9B2] rounded-md py-[0.5rem] px-[0.8rem]">
+              <div key={techIndex} className="w-fit p-3 text-green-300 border bg-neutral-900 border-s-neutral-600 border-y-neutral-700 border-r-neutral-800 rounded-lg font-light">
                 {tech}
               </div>
+              // <div key={techIndex} className="bg-[#12342E] border-[#84E9B2] text-[#84E9B2] rounded-md py-[0.5rem] px-[0.8rem]">
+              //   {tech}
+              // </div>
             ))}
           </div>
         </div>

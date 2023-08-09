@@ -7,6 +7,7 @@ import Masthead from "@/components/Masthead";
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
 import WorkExperience from "@/components/WorkExperience";
+import { ThemeProvider } from "@/store/useTheme";
 import { useEffect } from "react";
 import Scrollbar from 'smooth-scrollbar';
 
@@ -26,9 +27,10 @@ export default function Home() {
       Scrollbar.destroy(container);
     };
   }, []);
+  
 
   return (
-    <>
+    <ThemeProvider>
       <Navbar />
       <main className="p-6 w-full font-['Helvetica'] pt-[100px]" id="scrollable-container">
         <Section>
@@ -51,6 +53,6 @@ export default function Home() {
           <Footer />
         </Section>
       </main>
-    </>
+    </ThemeProvider>
   );
 }
