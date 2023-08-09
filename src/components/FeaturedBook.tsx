@@ -8,7 +8,7 @@ export default function FeaturedBook() {
         <div className="bg-rose-500 text-white rounded-md px-2 w-fit">
           Unpublished Ebook
         </div>
-        <h1 className="text-[24px] md:text-[32px] mt-5">
+        <h1 className="text-[24px] text-neutral-50 md:text-[32px] mt-5">
           A compendium of solutions for real-life UX problems
         </h1>
         <p className="mt-5 text-[20px] leading-[35px] md:text-[24px] text-neutral-300 font-light">
