@@ -32,7 +32,7 @@ export default function FeaturedWorks() {
   ];
 
   return (
-    <div className="font-light">
+    <div className="featured-works font-light">
       <h1 className="text-[#E8E8E8] text-[32px] md:text-[42px] md:mb-10 font-medium">
         Featured Works
       </h1>
@@ -65,9 +65,6 @@ export default function FeaturedWorks() {
               <div key={techIndex} className="w-fit p-3 text-green-300 border bg-neutral-900 border-s-neutral-600 border-y-neutral-700 border-r-neutral-800 rounded-lg font-light">
                 {tech}
               </div>
-              // <div key={techIndex} className="bg-[#12342E] border-[#84E9B2] text-[#84E9B2] rounded-md py-[0.5rem] px-[0.8rem]">
-              //   {tech}
-              // </div>
             ))}
           </div>
         </div>

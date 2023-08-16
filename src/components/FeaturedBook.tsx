@@ -3,7 +3,7 @@ import BookImage from "../../public/black-book.png";
 
 export default function FeaturedBook() {
   return (
-    <div className="w-full flex flex-col md:flex-row gap-[100px]">
+    <div className="featured-ebook w-full flex flex-col md:flex-row gap-[100px]">
       <div className="w-full md:w-[600px]">
         <div className="bg-rose-500 text-white rounded-md px-2 w-fit">
           Unpublished Ebook

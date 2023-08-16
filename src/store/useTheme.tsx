@@ -10,7 +10,7 @@ const ThemeContext = createContext(
 export const ThemeProvider = ({ children } : {
   children: ReactNode
 }) => {
-  const [highlight, setHighlight] = useState("bg-green-900");
+  const [highlight, setHighlight] = useState("bg-red-900");
 
   // VALUE context prop
   const value: any = {
