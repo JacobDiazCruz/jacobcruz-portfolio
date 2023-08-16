@@ -8,31 +8,12 @@ import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
 import WorkExperience from "@/components/WorkExperience";
 import { ThemeProvider } from "@/store/useTheme";
-import { useEffect } from "react";
-import Scrollbar from 'smooth-scrollbar';
 
 export default function Home() {
-  useEffect(() => {
-    // Initialize the smooth scrollbar
-    const container = document.querySelector("#scrollable-container");
-    const options = {
-      damping: 0.06,
-    };
-    // @ts-ignore
-    Scrollbar.init(container, options);
-
-    return () => {
-      // Destroy the scrollbar instance on component unmount
-      // @ts-ignore
-      Scrollbar.destroy(container);
-    };
-  }, []);
-  
-
   return (
     <ThemeProvider>
       <Navbar />
-      <main className="p-6 w-full font-['Helvetica'] pt-[100px]" id="scrollable-container">
+      <main className="p-6 w-full font-['Helvetica'] pt-[100px]">
         <Section>
           <Masthead />
         </Section>
