@@ -13,14 +13,14 @@ export default function WorkExperience() {
   const works: Work[] = [
     {
       icon: <ZestyIcon />,
-      company: "Zesty IO",
-      position: "Software Engineer",
+      company: "Emapta / Zesty IO",
+      position: "Senior Software Engineer",
       location: "San Diego, California, United States"
     },
     {
       icon: <YonduIcon />,
       company: "Yondu, Inc.",
-      position: "Senior Software Engineer",
+      position: "Senior Software Engineer / Frontend Lead",
       location: "BGC, Philippines"
     },
     {
