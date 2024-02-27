@@ -12,7 +12,7 @@ export default function FeaturedBook() {
           A compendium of solutions for real-life UX problems
         </h1>
         <p className="mt-5 text-[20px] leading-[35px] md:text-[24px] text-neutral-300 font-light">
-          This book centers around the day-to-day interactions of users with actual software applications. Drawing from my diverse industry background, I&rsquo;ve come to recognize the multitude of apps grappling with design challenges.
+          This book centers around the day-to-day interactions of users with actual software applications. Coming from my diverse industry background, I have gained an understanding of numerous applications facing design challenges.
         </p>
       </div>
       <div>
