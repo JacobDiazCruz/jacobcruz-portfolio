@@ -15,7 +15,16 @@ export default function FeaturedWorks() {
       icon: <OneguruIcon />,
       title: "OneGuru",
       link: "oneguru.io",
-      description: "An interactive learning platform for UI/UX enthusiasts. By taking our interactive test, you'll learn how to apply best practices when designing a UI. The app is powered by ReactJS",
+      description: "An interactive learning platform for UI/UX enthusiasts. By taking our interactive test, you'll learn how to apply best practices when designing a UI. The app is powered by MERN stack",
+      technologies: [
+        "ReactJS", "NodeJS", "MongoDB"
+      ]
+    },
+    {
+      icon: <OneguruIcon />,
+      title: "Manuela",
+      link: "manuela-fe.vercel.app",
+      description: "A virtual fitting room web app for fashion enthusiasts.",
       technologies: [
         "ReactJS", "NodeJS", "MongoDB"
       ]
