@@ -24,7 +24,7 @@ export default function FeaturedWorks() {
     {
       icon: <ManuelaIcon />,
       title: "Manuela",
-      link: "manuela-fe.vercel.app",
+      link: "manuela.ph",
       description: "A virtual fitting room web app for fashion enthusiasts.",
       technologies: [
         "ReactJS", "NodeJS", "MongoDB"
@@ -56,7 +56,7 @@ export default function FeaturedWorks() {
               </div>
               <div className="WorkItem_Heading_Link">
                 <a 
-                  href={`https://${work.link}`} 
+                  href={work.title === "Manuela" ? `https://manuela-fe.vercel.app/` : `https://${work.link}`} 
                   target="_blank" 
                   className="text-[#ABABAB] text-[24px] underline"
                 >
