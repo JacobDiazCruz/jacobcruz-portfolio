@@ -1,5 +1,6 @@
 import OneguruIcon from "../../public/oneguru-icon.svg"
 import PickoIcon from "../../public/picko-icon.svg"
+import ManuelaIcon from "../../public/manuela.svg"
 
 type WorkItem =  {
   icon: any;
@@ -21,7 +22,7 @@ export default function FeaturedWorks() {
       ]
     },
     {
-      icon: <OneguruIcon />,
+      icon: <ManuelaIcon />,
       title: "Manuela",
       link: "manuela-fe.vercel.app",
       description: "A virtual fitting room web app for fashion enthusiasts.",
