@@ -16,7 +16,7 @@ export default function FeaturedWorks() {
       icon: <OneguruIcon />,
       title: "OneGuru",
       link: "oneguru.io",
-      description: "An interactive learning platform for UI/UX enthusiasts. By taking our interactive test, you'll learn how to apply best practices when designing a UI. The app is powered by MERN stack",
+      description: "An interactive learning platform for Front-end developers or UI/UX enthusiasts. By taking our interactive test, you'll learn how to apply best practices when designing a UI.",
       technologies: [
         "ReactJS", "NodeJS", "MongoDB"
       ]
